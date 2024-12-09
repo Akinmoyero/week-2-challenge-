@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: calc(50% - 22px);
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 4px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px; /* Add margin for spacing */
+    width: 100%; /* Make buttons full width */
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.button-group {
+    margin-top: 2px; /* Add margin for spacing */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between item text and button */
+    align-items: center; /* Center items vertically */
+}
+
+li.purchased {
+    text-decoration: line-through;
+    color: #6c757d;
+    opacity: 0.6; /* Optional: make it slightly transparent */
+}
+
+input.edit-input {
+    width: calc(70% - 22px);
+    padding: 5px;
+    margin-right: 5px;
+}
