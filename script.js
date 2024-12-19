@@ -20,7 +20,7 @@ document.getElementById('addButton').addEventListener('click', function() {
 // Function to add item to the list
 function addItemToList(itemText, priceText) {
     const li = document.createElement('li'); // Create a new list item
-    li.textContent = ${itemText} - ${parseFloat(priceText).toFixed(2)}; // Set the text content
+    li.textContent = `${itemText} - ${parseFloat(priceText).toFixed(2)}`; // Set the text content
 
     // Create a "Mark as Purchased" button
     const markPurchasedButton = document.createElement('button');
